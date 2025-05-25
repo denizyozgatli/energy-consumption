@@ -1,7 +1,7 @@
 # energy-consumption
 Bu repo, GlobalAI Hub ve Akbank tarafından düzenlenen Makine Öğrenmesine Giriş Bootcamp kapsamında geliştirilen bir projedir.
 
-## 📌 Giriş
+# Giriş
 
 Bu proje, bir fabrikanın elektrik tüketim verilerini analiz ederek **enerji kullanımını tahmin etmeyi** amaçlamaktadır. Çalışmada farklı makine öğrenmesi modelleri test edilmiş, en iyi sonuç veren model hiperparametre optimizasyonu ile geliştirilmiştir.
 
@@ -15,7 +15,7 @@ Modelleme süreci şu adımları kapsamaktadır:
 
 ---
 
-## 🧪 Kullanılan Metrikler
+# Kullanılan Metrikler
 
 | Metrik  | Açıklama |
 |--------|----------|
@@ -25,7 +25,7 @@ Modelleme süreci şu adımları kapsamaktadır:
 
 ---
 
-## 🔍 Model Performansı
+# Model Performansı
 
 **En iyi model:** `RandomForestRegressor`  
 **Hiperparametreler (GridSearchCV):**
@@ -42,13 +42,13 @@ Modelleme süreci şu adımları kapsamaktadır:
 | RMSE       | 0.39        | 1.03      |
 | MAE        | 0.12        | 0.33      |
 
-> 🔍 Eğitim ve test başarıları birbirine çok yakın olduğu için **overfitting (aşırı öğrenme) problemi yoktur.**
+> Eğitim ve test başarıları birbirine çok yakın olduğu için **overfitting (aşırı öğrenme) problemi yoktur.**
 
 ---
 
-## 📊 Veri Analizi ve Görselleştirmeler
+# Veri Analizi ve Görselleştirmeler
 
-### 📅 Günlük Enerji Kullanımı
+## Günlük Enerji Kullanımı
 
 Her bir gün için ortalama tüketimi gösterir. Zamanla artan veya azalan trendler bu grafikle izlenebilir.
 
@@ -56,7 +56,7 @@ Her bir gün için ortalama tüketimi gösterir. Zamanla artan veya azalan trend
 
 ---
 
-### 🕒 Günün Saatine Göre Ortalama Elektrik Tüketimi
+## Günün Saatine Göre Ortalama Elektrik Tüketimi
 
 Enerji tüketiminin saatlik dağılımı, yoğun tüketim zamanlarını tespit etmek için kullanılır.
 
@@ -64,7 +64,7 @@ Enerji tüketiminin saatlik dağılımı, yoğun tüketim zamanlarını tespit e
 
 ---
 
-### 📆 Haftalık Ortalama Enerji Kullanımı ve CO₂ Miktarı
+## Haftalık Ortalama Enerji Kullanımı ve CO₂ Miktarı
 
 Enerji tüketimi ile karbon salımı arasındaki ilişkiyi gösterir. Çevresel sürdürülebilirlik açısından önemlidir.
 
@@ -72,7 +72,7 @@ Enerji tüketimi ile karbon salımı arasındaki ilişkiyi gösterir. Çevresel 
 
 ---
 
-### ⚙️ Yük Tiplerine Göre Enerji Kullanımı
+## Yük Tiplerine Göre Enerji Kullanımı
 
 Tesisin farklı yük koşullarındaki enerji tüketimi analiz edilmiştir.
 
@@ -80,7 +80,7 @@ Tesisin farklı yük koşullarındaki enerji tüketimi analiz edilmiştir.
 
 ---
 
-## 📦 Kullanılan Kütüphaneler
+##  Kullanılan Kütüphaneler
 
 - `pandas`, `numpy` — Veri işleme  
 - `matplotlib`, `seaborn` — Görselleştirme  
@@ -89,7 +89,7 @@ Tesisin farklı yük koşullarındaki enerji tüketimi analiz edilmiştir.
 
 ---
 
-## ✅ Sonuç
+## Sonuç
 
 RandomForestRegressor modeli, yüksek başarı oranı ve düşük hata değerleri ile elektrik tüketimini tahmin etmede oldukça başarılı olmuştur. Bu model:
 
