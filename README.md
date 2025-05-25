@@ -80,15 +80,6 @@ Tesisin farklı yük koşullarındaki enerji tüketimi analiz edilmiştir.
 
 ---
 
-##  Kullanılan Kütüphaneler
-
-- `pandas`, `numpy` — Veri işleme  
-- `matplotlib`, `seaborn` — Görselleştirme  
-- `sklearn` — Modelleme ve değerlendirme  
-- `xgboost` — Boosting algoritmaları
-
----
-
 ## Sonuç
 
 RandomForestRegressor modeli, yüksek başarı oranı ve düşük hata değerleri ile elektrik tüketimini tahmin etmede oldukça başarılı olmuştur. Bu model:
