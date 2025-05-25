@@ -8,7 +8,7 @@ Bu proje, bir fabrikanın elektrik tüketim verilerini analiz ederek **enerji ku
 Modelleme süreci şu adımları kapsamaktadır:
 
 - Veri analizi ve ön işleme  
-- Anlamlı özniteliklerin seçimi  
+- Değişken seçimi  
 - Farklı algoritmalarla model eğitimi  
 - En başarılı model için hiperparametre ayarı  
 - Son modelin değerlendirilmesi ve görselleştirilmesi
@@ -42,7 +42,7 @@ Modelleme süreci şu adımları kapsamaktadır:
 | RMSE       | 0.39        | 1.03      |
 | MAE        | 0.12        | 0.33      |
 
-> Eğitim ve test başarıları birbirine çok yakın olduğu için **overfitting (aşırı öğrenme) problemi yoktur.**
+> Eğitim ve test başarıları birbirine çok yakın olduğu için **overfitting (aşırı öğrenme) problemi yoktur** yorumu yapılabilir.
 
 ---
 
@@ -80,12 +80,26 @@ Tesisin farklı yük koşullarındaki enerji tüketimi analiz edilmiştir.
 
 ---
 
-## Sonuç
+## Sonuç ve Gelecek Çalışmalar
 
 RandomForestRegressor modeli, yüksek başarı oranı ve düşük hata değerleri ile elektrik tüketimini tahmin etmede oldukça başarılı olmuştur. Bu model:
 
 - Gerçek tüketimle çok yakın tahminler üretmektedir.
-- Gelecekte yapılacak enerji planlaması ve tasarruf stratejileri için sağlam bir temel sunmaktadır.
+- Gelecekteki enerji planlamalarına yön verebilecek değerli bir öngörü modelidir.
+
+### Eksikler ve Geliştirme Alanları
+
+- Veri seti tarihsel ve sınırlıydı. Daha uzun süreli ya da gerçek zamanlı verilerle model genellenebilir.
+- Kullanılan özellik mühendisliği daha da zenginleştirilebilir.
+
+### Gelecek Planları
+
+- Gerçek zamanlı veri akışı ile sürekli tahmin yapabilen bir sistem kurulabilir.
+- Kullanıcı arayüzü olan bir dashboard veya web uygulaması geliştirilebilir. 
+- Farklı makine öğrenmesi algoritmaları denenebilir.
+- Bu proje, enerji yönetimiyle ilgilenen kurumlara sunularak, veri odaklı karar alma süreçlerini optimize etmelerine katkı sağlayabilir.
+
+---
 
 # Linkler
 
