@@ -89,13 +89,13 @@ RandomForestRegressor modeli, yüksek başarı oranı ve düşük hata değerler
 
 ### Eksikler ve Geliştirme Alanları
 
-- Veri seti tarihsel ve sınırlıydı. Daha uzun süreli ya da gerçek zamanlı verilerle model genellenebilir.
-- Kullanılan özellik mühendisliği daha da zenginleştirilebilir.
+- Varsa aykırı değerler için daha detaylı ön işleme teknikleri uygulanabilir.
+- Feature engineering uygulamaları ile model için daha açıklayıcı ve güçlü özellikler oluşturulabilir.
 
 ### Gelecek Planları
 
 - Gerçek zamanlı veri akışı ile sürekli tahmin yapabilen bir sistem kurulabilir.
-- Kullanıcı arayüzü olan bir dashboard veya web uygulaması geliştirilebilir. 
+- Kullanıcı arayüzü olan bir web uygulaması geliştirilebilir. 
 - Farklı makine öğrenmesi algoritmaları denenebilir.
 - Bu proje, enerji yönetimiyle ilgilenen kurumlara sunularak, veri odaklı karar alma süreçlerini optimize etmelerine katkı sağlayabilir.
 
